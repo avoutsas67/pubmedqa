@@ -5,7 +5,7 @@ Calculate human performance on test set
 '''
 
 import json
-from sklearn.metrics import f1_score, accuracy_score
+from sklearn.metrics import f1_score, accuracy_score #type: ignore
 
 test_set = json.load(open('data/test_set.json'))
 

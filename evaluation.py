@@ -1,7 +1,7 @@
 __author__ = 'Qiao Jin'
 
 import json
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import accuracy_score, f1_score #type: ignore
 import sys
 
 pred_path = sys.argv[1]
